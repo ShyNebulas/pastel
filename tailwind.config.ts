@@ -7,13 +7,24 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+    // https://coolors.co/d88c9a-f2d0a9-f1e3d3-99c1b9-8e7dbe
+    colors: {
+      puce: {
+        DEFAULT: '#D88C9A',
       },
-    },
+      orange: {
+        DEFAULT: '#F2D0A9',
+      },
+      almond: {
+        DEFAULT: '#F1E3D3',
+      },
+      cambridge: {
+        DEFAULT: '#99C1B9',
+      },
+      indigo: {
+        DEFAULT: '#8E7DBE',
+      },
+    }
   },
   plugins: [],
 }
