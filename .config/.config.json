@@ -1,0 +1,6 @@
+{
+    "alert": {
+        "content": "# Info: This is an **example** alert!",
+        "ignore": false
+    }
+}
